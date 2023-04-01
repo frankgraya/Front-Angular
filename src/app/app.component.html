@@ -1,4 +1,31 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark text-white">
+   <ul class="navbar-nav">
+     
+   <!--routerLink="empleados" routerLinkActive="active" sirve para redirigir a la pagina  -->
+
+    <li class="nav-item">
+      <a routerLink="empleados" routerLinkActive="active" class="nav-link" >Lista de empleados</a>
+    </li>
+
+    <li class="nav-item">
+      <a routerLink="registrar-empleado" routerLinkActive="active" class="nav-link" >Registro de Empleados</a>
+    </li>
+
+
+
+    <li class="nav-item">
+      <a routerLink="otro" routerLinkActive="active" class="nav-link" >otro componente</a>
+    </li>
+
+
+    <li class="nav-item">
+      <a routerLink="prueba2" routerLinkActive="active" class="nav-link" >Prueba2</a>
+    </li>
+
+
+   </ul>
+</nav>
 <h1 class="text-center">{{title}}</h1>
 <div class="container">
-  <app-lista-empleados></app-lista-empleados>
+ <router-outlet></router-outlet>
 </div>

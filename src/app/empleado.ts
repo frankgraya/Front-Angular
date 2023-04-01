@@ -4,4 +4,5 @@ export class Empleado {
     nombre:string;
     apellido:string;
     email:string;
+    image: String;
 }
