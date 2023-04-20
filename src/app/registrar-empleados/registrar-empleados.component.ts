@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Empleado } from '../empleado';
-import { EmpleadoService } from '../empleado/empleado.service';
+import { EmpleadoService } from '../empleado-service/empleado.service';
 
 @Component({
   selector: 'app-registrar-empleados',
